@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <!-- Place this within the <body> tag of your HTML -->
+<audio id="successSound" src="D:\PORTFOLIO\429_Personal-portfolio\Personal-portfolio\images\tap-notification-180637.mp3"></audio>
+
+    
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+           <!-- Chatbot fixed at the bottom-right of the screen -->
+        <div id="chatbotContainer">
+            <img src="D:\PORTFOLIO\429_Personal-portfolio\Personal-portfolio\images\cbot.png" alt="Chatbot Logo" class="logo" id="chatbotLogo">
+            
+
+        </div>
+
+        <div class="header-text">
+            <p>Weber</p>
+            <h1>Hi, I'm <span><br>Ganesh Kodihalli</span><br></h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images\userr.png.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1><br>
+                <p>Motivated and determined professional striving to excel in a dynamic work 
+                    environment, pursuing opportunities for career advancement and to drive 
+                    meaningful contributions to the organization's success.</p>
+
+                    <div class="tab-titles">
+                    
+                    
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+    
+                        <p class="tab-links active-link" onclick="opentab('skills')">Technical Skills</p>
+    
+                        <p class="tab-links active-link" onclick="opentab('certifications')">Certifications</p>
+    
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python</span><br> Proficient in Python programming, with a focus on data analysis and manipulation.</li>
+                            <li><span>Web Development</span><br>Skilled in creating web pages using HTML and styling them effectively with CSS and Bootstrap</li>
+                            <li><span>Data Analysis and Visualization</span><br>Numpy: Competent in using NumPy for numerical data processing and performing array operations.<br>
+                                Pandas: Experienced in data manipulation and analysis using Pandas.<br>
+                                Matplotlib & Seaborn: Proficient in data visualization using Matplotlib and Seaborn to create insightful graphs and plots</li>
+                            
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>MCA from
+                                Sir M Visvesvaraya Institute of Technology, Banglore.</li>
+                            <li><span>2021</span><br>B.Sc. (Computer Science) from  
+                                Govt. First Grade College, Ranebennur.</li>
+                            <li><span>2018</span><br>PUC from 
+                                JSS SMPU College, Dharwad.</li>
+                            <li><span>2016</span><br>SSLC from
+                                Devika English Medium High School, 
+                                Ranebennur.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="certifications">
+                        <ul>
+                           <li><a href="https://www.credly.com/badges/bff8cf62-82d0-4339-8fab-116925e09d73/linked_in?t=s3huv8" target="_blank"><span>Python Essentials I from Cisco</span></a><br></li> 
+                            <li><a href="https://www.udemy.com/certificate/UC-a449f268-3679-4c91-8a38-8b52a8c9ef37/" target="_blank"><span>Python Programming Masterclass Beginner to Advanced from Udemy </span></a><br></li>
+                            <li><a href="https://trainings.internshala.com/view_certificate/f6007o6j99h/jn62j5utkfl/" target="_blank"><span>Front-end Development from Internshala</span></a><br></li>
+                            <li><a href="https://www.coursera.org/account/accomplishments/professional-cert/F6TNZL5FRN9Z?utm_source=ln&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=prof" target="_blank"><span>Google Data Analytics Certification from Google (Coursera)</span></a><br></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images\Screenshot 2023-12-30 203332.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images\Screenshot 2023-12-30 203440.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images\Screenshot 2023-12-30 203644.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> ykganesh11@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 9964037294</p>
+                <div class="social-icons">
+                    <a href="YOUR_FACEBOOK_PROFILE_URL" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/yourprofile" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="https://x.com/GaneshKodihalli?t=FttcJcg6DqOe5GVY5qmbdw&s=09" target="_blank">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/ganeshkodihalli" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    
+
+                    <a href="YOUR_GITHUB_PROFILE_URL" target="_blank">
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                    
+                </div>
+                <a href="images\CustCopy2.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw8TBaDaa3sB8TW8-7jscoq-WjKSponjy0H7KCrw4xURQrxT0DoYRENiTuLKVREi7Fj/exec'
+const form = document.forms['submit-to-google-sheet']
+const successSound = document.getElementById('successSound');
+const messageDiv = document.getElementById('msg');
+
+// ... existing JavaScript code ...
+// JavaScript Code
+
+// Existing setup and function definitions...
+form.addEventListener('submit', e => {
+    e.preventDefault();
+
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+            console.log('Success!', response);
+
+            successSound.play();
+            messageDiv.innerText = 'Submitted successfully';
+
+            // Add the new hover effect class to the submit button
+            document.querySelector('form .btn2').classList.add('submit-button-hover-effect');
+        })
+        .catch(error => {
+            console.error('Error!', error.message);
+            messageDiv.innerText = 'Submission failed';
+        });
+});
+
+
+
+  </script>
+
+
+
+
+<!-- Footer Section -->
+<footer id="portfolio-footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Contact Information</h3>
+            <p><i class="fas fa-envelope"></i> ykganesh11@gmail.com</p>
+            <p><i class="fas fa-phone"></i> 9964037294</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Me On</h3>
+            <div class="social-icons">
+                <!-- Replace # with your profile links -->
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+         <div class="footer-bottom">
+            <p>© 2023 Ganesh Kodihalli. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+
+
+
+
+</html>
