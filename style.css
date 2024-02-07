@@ -8,7 +8,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #343149;
+    background: #0b0b0d;
     color: #fff;
 }
 #header{
@@ -70,6 +70,10 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #ff004f;
 }
+
+
+
+
 /*------------chatbot------------*/
 /* ... existing CSS ... */
 
